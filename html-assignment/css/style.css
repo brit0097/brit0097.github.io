@@ -1,0 +1,40 @@
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+font-size: 18pt;
+}
+
+header, footer{
+    background-color: antiquewhite ;
+}
+
+.site-title{
+    color: lightpink;
+}
+
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+}
+
+.square-bullets{
+    list-style: square;
+}
+
+section ul li:nth-child(odd){
+    background-color: lightpink;
+}
+
+.remove-bullet{
+    list-style: none;
+
+}
+
+.remove-bullet li a{
+    text-decoration: none;
+    background-color: lightpink;
+    border: 2px darkmagenta solid;
+}
+
+.remove-bullet li a:hover{
+    background-color: lightcoral;
+}
+
