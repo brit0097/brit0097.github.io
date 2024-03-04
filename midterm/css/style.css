@@ -1,0 +1,162 @@
+/* the scroll behaviour makes the page smoothly go down when i click the nav bar */
+
+html{
+    background-color: #aad4cf;
+    scroll-behavior: smooth;
+}
+
+/* margin bottom added the darker green line right under the footer */
+/* margin auto made the body centralised */
+body{
+    background-color: #d4e9e7;
+    width: 1025px;
+    height: 1575px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: Arial;
+}
+
+/* the header position is relative for it to be a reference point for the absolutely positioned child elements within it - aka h1 */
+header {
+    text-align: center;
+    position: relative;
+}
+
+/* width 100% makes the image fill the width, so that it doesn't have an extra line with the light green from the body background */
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* transform: translate(-50%, -50%) adjusts the position to center the h1 by moving it back 50% of its own width and height - achieving a center alignment */
+h1 {
+    font-size: 64px;
+    color: white;
+    position: absolute;
+    top: 174pt;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul.nav {
+    overflow: hidden;
+}
+
+/* this makes the nav bar centralised and one next to each other, not under each other */
+li.nav-item {
+    float: left;
+    width: 33%;
+}
+
+li.nav-item a {
+    display: block;
+    color: black;
+    padding: 9px;
+    text-decoration: none;
+    font-size: 26px;
+    border-right: black solid 1px;
+}  
+
+/* this removes the border from the last item of the nav bar - aka contact */
+li.nav-item:last-child a {
+    border-right: none;
+}
+
+h2{
+    font-size: 35px;
+    margin: 9px;
+    padding: 28px 0 0 0;
+}
+
+/* float makes the image stay next to the text, on the left side */
+main article img {
+    margin: 9px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+main article p {
+    padding: 8px 20px 0 0;
+    margin-left: 9px;
+    line-height: 140%;
+    font-weight: 500;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 29px;
+    margin: 9px;
+    padding: 22px 0 5px 0;  
+}
+
+ul.facts {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-inline-start: 12px;
+}
+
+/* this minimises the space between the bullet point and the text within it */
+li span {
+    position: relative;
+    left: -10px;
+  }
+
+.contact-form {
+    padding: 15px;
+    width: 972px; 
+}
+
+/* this adds space between the bottom of the white rectangle and the next label (your email, your message) */
+.form-item {
+    margin-bottom: 20px; 
+    font-size: 18px;
+}
+
+/* this adjust only the white rectangles and their relation with their labels*/
+.form-item input[type="text"],
+.form-item input[type="email"],
+.form-item textarea {
+    width: 98%; 
+    padding: 10px;
+    margin-bottom: 0; 
+    margin-top: 10px;
+    border: 1px solid #ccc; 
+    height: 9px;
+}
+
+div.form-item textarea:nth-child(3) {
+    border: 1px solid #949494;
+    height: 80px;
+}
+
+/* this creates the border on the form part */
+div.contact-form {
+    border: 1px black solid;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+.radio-item input[type="radio"] {
+    margin-top: 28px;
+}
+
+#form-starfish {
+    font-size: 22px;
+}
+
+/* adjust the send button */
+input[type="submit"] {
+    border: 1px black solid;
+    background-color: #d4e9e7;
+    padding: 10px;
+    font-size: 10px;
+}
+
+footer{
+    text-align: end;
+    margin-right: 32px;
+}
+
+
+

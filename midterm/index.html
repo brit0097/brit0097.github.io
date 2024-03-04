@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- image tag for header content -->
+    <header>
+        <div class="image-container">  
+            <img src="images/lone-starfish-wide.jpg" alt="Lone Starfish">  
+            <h1>Lone Starfish</h1>
+        </div>
+        
+        <div class="grid-container">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#home">HOME</a></li>
+                    <li class="nav-item"><a href="#story">STORY</a></li>
+                    <li class="nav-item"><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+    </header>
+
+    <main>
+        <article>
+            <h2 id="story">Life of a Starfish</h2>
+            <img src="images/lone-starfish.jpg" alt="Starfish" width="250">
+            <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.</p>
+        </article>
+        <!-- span was used for me to be able to create the margins for the bullet points -->
+        <section>
+            <h3 id="contact">Facts About Starfish</h3>
+            <ul class="facts">
+                <li><span>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</span></li>
+                <li><span>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</span></li>
+                <li><span>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</span></li>
+                <li><span>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</span></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Contact to learn more</h3>
+            
+            <div class="contact-form">
+                <form>
+                    <div class="form-item">
+                        <label for="name">Your Name</label><br>
+                        <input type="text" id="name" name="name" autocomplete="name">
+                    </div>
+
+                    <div class="form-item">
+                        <label for="email">Your Email</label><br>
+                        <input type="email" id="email" name="email" autocomplete="email">
+                    </div>
+
+                    <div class="form-item">
+                        <label for="message">Your Message</label><br>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <!-- fieldset makes this form more accessible, it groups the input fields and the legend provides a clear label -->
+                    <!-- i had used a p tag for the legend before, but then realised the fieldset + legend would group the radio items better -->
+                    <fieldset>
+                        <legend id="form-starfish">Would you like to visit the starfish?</legend>
+                        <div class="form-item radio-item">
+                            <label for="yes">Yes</label>
+                            <input type="radio" id="yes" name="would-visit" value="Yes">
+                            <label for="no">No</label>
+                            <input type="radio" id="no" name="would-visit" value="No">
+                            <label for="maybe">Maybe</label>
+                            <input type="radio" id="maybe" name="would-visit" value="Maybe">
+                        </div>
+                    </fieldset>
+
+                    <input type="submit" value="SEND" class="send-button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; Lone Starfish.</p>
+    </footer>
+
+</body>
+</html>
