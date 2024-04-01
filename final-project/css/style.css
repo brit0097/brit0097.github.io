@@ -62,38 +62,38 @@ body {
 }
 
 h1 {
-	font-size: 70px;
+	font-size: 47px;
 	font-weight: 700;
-	line-height: 1.5em;
-	padding-bottom: 20px;
+	line-height: 1.6em;
+	padding-bottom: 15px;
 }
 
 h2 {
-	font-size: 48px;
+	font-size: 35px;
 	font-weight: 700;
-	padding-bottom: 25px;
-	padding-top: 30px;
+	padding-bottom: 15px;
+	padding-top: 20px;
 	/* padding: 18px 15px 25px 15px; */
 }
 
 h3 {
-	font-size: 32px;
+	font-size: 24px;
 	font-weight: 700;
-	padding-top: 35px;
-	padding-bottom: 20px;
+	padding-top: 25px;
+	padding-bottom: 10px;
 }
 
 h4 {
-	font-size: 16px;
+	font-size: 13px;
 	font-weight: 700;
 }
 
 
 p {
-	font-size: 14px;
+	font-size: 10px;
 	line-height: 1.5em;
-	padding-bottom: 15px;
-	font-weight: 600;
+	padding-bottom: 12px;
+	font-weight: 500;
 }
 
 a, a:visited {
@@ -126,24 +126,25 @@ a:hover, a:focus {
 .header-nav {
 	background-color: #222222;
 	color: #c78c06;
-	margin: 15px;
+	margin: 10px;
 }
 
 .logo-bg {
 	background-color: #c78c06;
-	padding: 1.2em 0;
+	padding: 10px 0;
 	
 }
 
 #logo {
 	padding-left: 0;
+	width: 82px;
 }
 
 .nav-bar {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	font-size: 19px;
+	font-size: 14px;
 	justify-content: space-between;
 }
 
@@ -163,14 +164,14 @@ a:hover, a:focus {
 	margin: 0;
 	border: 1px solid #666;
 	border-radius: 2px;
-	font-size: 17.5px;
+	font-size: 13px;
 }
 
 .fas.fa-search {
 	border: #c78c06 1px solid;
 	border-radius: 2px;
-	padding: 8px;
-	font-size: 25px;
+	padding: 6px;
+	font-size: 20px;
 }
 
 #search-bar {
@@ -188,7 +189,7 @@ a:hover, a:focus {
 	background-size: auto 100%;
 	background-repeat: no-repeat;
     position: relative;
-    height: 602px;
+    height: 422px;
     width: 100%;
     color: white;
 	/* overflow: hidden; */
@@ -196,7 +197,7 @@ a:hover, a:focus {
 
 #main-banner {
 	position: relative;
-	height: 602px;
+	/* height: 602px; */
 	width: auto 100%;
 	/* overflow: hidden; */
 }
@@ -205,7 +206,7 @@ a:hover, a:focus {
 	background-color: rgba(00, 00, 00, 0.6);
 	background-position: center;
 	position: absolute;
-	margin: 69px 0;
+	margin: 48px 0;	
 	/* top: 69px;
 	right: 0;
 	left: 0;
@@ -214,30 +215,30 @@ a:hover, a:focus {
 }
 
 .welcome-text {
-	padding: 52px 15px 15px 15px;
+	padding: 31px 15px 15px 15px;
 }
 
 
 #welcome-btn {
-	padding: 28px 30px 34px 30px;
-	font-size: 18px;
+	padding: 22px 25px 24px 25px;
+	margin-bottom: -4px;
 	border: 0;
-	font-size: 21px;
+	font-size: 15px;
 	background-color: #c78c06;
 	font-family: 'Open Sans';
 }
 
-.fa-caret-right {
+/* .fa-caret-right {
 	padding-left: 10px;
 	font-size: 30px;
-}
+} */
 
 
 /* ---------- About Us Section --------- */
 
 .about-us {
 	background-color: #ffe6ac;
-	padding: 16px;
+	padding: 10px;
 	/* position: absolute; */
 }
 
@@ -250,6 +251,7 @@ a:hover, a:focus {
 .about-us p {
 	/* padding-left: 16px; */
 	/* padding-right: 16px; */
+
 	font-weight: 600;
 }
 
@@ -258,7 +260,7 @@ a:hover, a:focus {
 
 .services-section {
 	background-color: white;
-	padding: 16px;
+	padding: 10px;
 	/* position: absolute; */
 }
 
@@ -276,8 +278,8 @@ a:hover, a:focus {
 .services-flex-item p,
 .services-flex-item h3,
 .services-flex-item button {
-	margin-left: 14px;
-	margin-right: 14px;
+	margin-left: 12px;
+	margin-right: 12px;
 }
 
 .services-flexbox img {
@@ -292,8 +294,9 @@ a:hover, a:focus {
 	background-color: #222222;
 	color: white;
 	font-family: 'Open Sans';
-	font-size: 20px;
-	padding: 30px 30px 34px 30px;
+	padding: 22px 25px 24px 25px;
+	border: 0;
+	font-size: 16px;
 }
 
 
@@ -301,7 +304,8 @@ a:hover, a:focus {
 
 .vision-section {
 	background-image: url(../images/vision.jpg);
-	background-size: 100% auto;
+	/* background-size: 100% auto; */
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	color: white;
@@ -310,11 +314,12 @@ a:hover, a:focus {
 .vision-section h3,
 .vision-section p,
 .vision-section button {
-	margin-left: 16px;
-	margin-right: 16px;
+	margin-left: 12px;
+	margin-right: 12px;
 }
 
 .vision-section p {
+	padding-top: 8px;
 	font-weight: 400;
 }
 
@@ -323,8 +328,8 @@ a:hover, a:focus {
 	background-color: rgba(34, 34, 34, 0.8);
 	color: white;
 	font-family: 'Open Sans';
-	font-size: 20px;
-	padding: 30px 30px 34px 30px;
+	padding: 22px 25px 24px 25px;
+	font-size: 16px;
 	border: #c78c06 1px solid;
 }
 
@@ -332,7 +337,7 @@ a:hover, a:focus {
 
 .team-section {
 	background-color: white;
-	padding: 16px;
+	padding: 10px;
 }
 
 .team-flexbox {
@@ -354,8 +359,8 @@ a:hover, a:focus {
 .team-flex-item h4,
 .team-flex-item p,
 .team-flex-item hr {
-	margin-right: 16px;
-	margin-left: 16px;
+	margin-right: 12px;
+	margin-left: 12px;
 }
 
 .team-flex-item h3 {
@@ -364,11 +369,12 @@ a:hover, a:focus {
 }
 
 .team-flex-item h4 {
+	margin-top: 7px;
 	margin-bottom: -5px;
 }
 
 .team-flex-item p {
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .team-flex-item hr {
@@ -381,24 +387,28 @@ a:hover, a:focus {
 
 .contact-section {
 	background-color: white;
-	padding: 16px;
+	padding: 10px;
 }
 
 .contact-section h2 {
-	margin-top: 25px;
-	margin-bottom: -25px;
+	margin-top: 20px;
+	margin-bottom: -12px;
+}
+
+.contact-section h3 {
+	margin-bottom: 2px;
 }
 
 .form-item {
 	font-family: 'Open Sans';
-	font-size: 14px;
+	font-size: 10px;
 	font-weight: 600;
 }
 
 .contact-type {
 	width: 100%;
-	padding: 6px;
-	margin: 6px 0 9px 0;
+	padding: 3.5px;
+	margin: 4px 0 9px 0;
 	border: #666 1.5px solid;
 	border-radius: 2px;
 }
@@ -409,7 +419,7 @@ textarea {
 	margin: 6px 0;
 	border: #666 1.5px solid;
 	border-radius: 2px;
-	height: 150px;
+	height: 110px;
 	resize: none;
 }
 
@@ -417,7 +427,7 @@ textarea {
 	background-color: #222222;
 	color: #c78c06;
 	/* font-family: 'Open Sans'; */
-	font-size: 21px;
+	font-size: 15px;
 	font-weight: 500;
 	margin: 12px 0;
 	padding: 3px;
@@ -425,12 +435,13 @@ textarea {
 
 #h3-hours {
 	margin-top: -20px;
+	margin-bottom: 6px;
 }
 
 table {
 	width: 100%;
 	font-family: 'Open Sans';
-	font-size: 14px;
+	font-size: 11px;
 	margin-top: -7px;
 	margin-bottom: -16px;
 }
@@ -444,7 +455,7 @@ th {
 }
 
 th, td {
-	padding: 18px 10px;
+	padding: 13px 10px;
 }
 
 .google-map {
