@@ -85,8 +85,8 @@ h3 {
 }
 
 h4 {
-	font-size: 13px;
-	font-weight: 700;
+	font-size: 7px;
+	font-weight: 800;
 }
 
 
@@ -132,20 +132,20 @@ a:hover, a:focus {
 
 .logo-bg {
 	background-color: #c78c06;
-	padding: 10px 0;
+	padding: 8px 0;
 	
 }
 
 #logo {
 	padding-left: 0;
-	width: 82px;
+	width: 42px;
 }
 
 .nav-bar {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	font-size: 14px;
+	font-size: 8px;
 	justify-content: space-between;
 }
 
@@ -165,20 +165,21 @@ a:hover, a:focus {
 	margin: 0;
 	border: 1px solid #666;
 	border-radius: 2px;
-	font-size: 13px;
+	font-size: 8px;
 }
 
 .fas.fa-search {
-	border: #c78c06 1px solid;
+	border: #c78c06 0.5px solid;
 	border-radius: 2px;
-	padding: 6px;
-	font-size: 20px;
+	padding: 4px;
+	font-size: 10px;
 }
 
 #search-bar {
 	display: flex;
 	justify-content: center;
 	flex-wrap: nowrap;
+	margin-bottom: -5px;
 }
 
 
@@ -187,7 +188,7 @@ a:hover, a:focus {
 .welcome {
     background-image: url(../images/main-banner.jpg);
     background-position: center;
-	background-size: auto 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
     position: relative;
     height: 258px;
@@ -241,7 +242,6 @@ a:hover, a:focus {
 .about-us {
 	background-color: #ffe6ac;
 	padding: 10px;
-	height: 270px;
 	/* position: absolute; */
 }
 
@@ -256,6 +256,10 @@ a:hover, a:focus {
 	/* padding-left: 16px; */
 	/* padding-right: 16px; */
 	font-weight: 600;
+}
+
+.about-us p:last-child {
+	margin-bottom: -10px;
 }
 
 
@@ -290,7 +294,8 @@ a:hover, a:focus {
 }
 
 .services-flex-item p {
-	font-weight: 500;
+	font-weight: 600;
+	font-size: 5.5px;
 }
 
 .services-flex-item button {
@@ -318,23 +323,28 @@ a:hover, a:focus {
 .vision-section h3,
 .vision-section p,
 .vision-section button {
-	margin-left: 12px;
-	margin-right: 12px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.vision-section h3 {
+	padding-top: 18px;
 }
 
 .vision-section p {
-	padding-top: 8px;
+	padding-top: 0px;
 	font-weight: 400;
 }
 
 .vision-section button {
-	margin-bottom: 12px;
+	margin-bottom: 6px;
+	margin-top: -6px;
 	background-color: rgba(34, 34, 34, 0.8);
 	color: white;
 	font-family: 'Open Sans';
-	padding: 22px 25px 24px 25px;
-	font-size: 16px;
-	border: #c78c06 1px solid;
+	padding: 13px 14px 14px 14px;
+	font-size: 9px;
+	border: #c78c06 0.5px solid;
 }
 
 /* ---------- Team Section ---------- */
@@ -347,7 +357,7 @@ a:hover, a:focus {
 .team-flexbox {
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 5px;
 }
 
 .team-flex-item {
@@ -368,22 +378,25 @@ a:hover, a:focus {
 }
 
 .team-flex-item h3 {
-	margin-top: -15px;
+	margin-top: -5px;
 	margin-bottom: -10px;
 }
 
 .team-flex-item h4 {
-	margin-top: 7px;
-	margin-bottom: -5px;
+	margin-top: 3px;
+	margin-bottom: -6px;
 }
 
 .team-flex-item p {
-	margin-top: 10px;
+	margin-top: 5px;
+	margin-bottom: -15px;
+	font-weight: 600;
+	font-size: 5.5px;
 }
 
 .team-flex-item hr {
 	border: none;
-	height: 1.5px;
+	height: 1px;
 	background-color: #c78c06;
 }
 
@@ -395,8 +408,7 @@ a:hover, a:focus {
 }
 
 .contact-section h2 {
-	margin-top: 20px;
-	margin-bottom: -12px;
+	margin-bottom: -10px;
 }
 
 .contact-section h3 {
@@ -405,15 +417,15 @@ a:hover, a:focus {
 
 .form-item {
 	font-family: 'Open Sans';
-	font-size: 10px;
+	font-size: 7px;
 	font-weight: 600;
 }
 
 .contact-type {
 	width: 100%;
-	padding: 3.5px;
-	margin: 4px 0 9px 0;
-	border: #666 1.5px solid;
+	padding: 1px;
+	margin: 3px 0 7px 0;
+	border: #666 0.5px solid;
 	border-radius: 2px;
 }
 
@@ -421,9 +433,9 @@ textarea {
 	width: 100%;
 	padding: 6px;
 	margin: 6px 0;
-	border: #666 1.5px solid;
+	border: #666 0.5px solid;
 	border-radius: 2px;
-	height: 110px;
+	height: 70px;
 	resize: none;
 }
 
@@ -431,27 +443,28 @@ textarea {
 	background-color: #222222;
 	color: #c78c06;
 	/* font-family: 'Open Sans'; */
-	font-size: 15px;
+	font-size: 9px;
 	font-weight: 500;
 	margin: 12px 0;
-	padding: 3px;
+	padding: 1px;
 }
 
 #h3-hours {
-	margin-top: -20px;
+	margin-top: -15px;
 	margin-bottom: 6px;
 }
 
 table {
 	width: 100%;
 	font-family: 'Open Sans';
-	font-size: 11px;
+	font-size: 7px;
 	margin-top: -7px;
-	margin-bottom: -16px;
+	margin-bottom: -5px;
+	font-weight: 600;
 }
 
 table, th, td {
-	border: 1px solid;
+	border: 0.5px solid;
 }
 
 th {
@@ -459,29 +472,30 @@ th {
 }
 
 th, td {
-	padding: 13px 10px;
+	padding: 7px 7px;
 }
 
 .google-map {
 	margin-top: -5px;
-	padding-bottom: 0;
+	margin-bottom: -4px;
 }
 
 .google-map iframe {
-	height: 450px;
+	height: 180px;
 	width: 100%;
 }
 
 /* ---------- Footer -------- */
 
 footer {
-	margin-top: 28px;
+	margin-top: 15px;
 	padding-left: 16px;
 }
 
 footer p {
 	color: #c78c06;
 	font-weight: 400;
+	margin-bottom: -8px;
 }
 
 #footer-link {
